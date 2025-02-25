@@ -109,5 +109,11 @@
     margin: 20px;
 }
 .margin{
-    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.margintop{
+    display: flex;
+    justify-content: center;
 }
