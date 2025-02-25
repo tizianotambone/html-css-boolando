@@ -27,9 +27,32 @@
 .lista>li{
     margin: 0px 10px;
 }
-.card{
-    height: 150px;
+.container{
+    width: 80%;
+    border: 1px solid black;
+    margin: 40px;
+
 }
-.img2{
-    height: 500px;
+.card{
+    width: 300px;
+}
+
+.cardimg{
+    position: relative;
+}    
+.cardimg>img{
+    width: 100%;
+}
+.absolute{
+    position: absolute;
+    right: 0;
+    top: 10px;
+    background-color: white;
+    padding: 10px;
+}
+.green{
+    background-color: green;
+}
+.red{
+    background-color: red;
 }
