@@ -29,12 +29,21 @@
 }
 .container{
     width: 80%;
-    border: 1px solid black;
     margin: 40px;
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
+ main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ } 
+
 .card{
-    width: 300px;
+    width: 30%;
+    margin: 10px;
 }
 
 .cardimg{
@@ -52,7 +61,16 @@
 }
 .green{
     background-color: green;
+    color: white;
 }
 .red{
     background-color: red;
+    color: white;
 }
+.absolute2{
+    position: absolute;
+    left: 0;
+    bottom: 25px;
+}
+    
+    
