@@ -75,5 +75,13 @@
     left: 0;
     bottom: 25px;
 }
-    
-    
+.imghover{
+    display: none;
+
+}
+.card:hover .imghover{
+    display: block;
+}
+.card:hover .img1{
+    display:none;
+}
